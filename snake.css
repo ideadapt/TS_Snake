@@ -1,0 +1,16 @@
+.snake-grid {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: lightgrey;
+}
+
+.snake-pixel {
+    border: gray dotted 1px;
+    margin: -1px;
+}
+
+.snake-body {
+    background-color: red;
+    border: 1px solid black;
+    margin: -1px;
+}

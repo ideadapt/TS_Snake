@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="snake.js"></script>
+    <script>
+        var snakeGame = new SnakeGame({
+            "grid": {
+                "size": {
+                    "x": 50,
+                    "y": 50
+                },
+                "sizePerPixel": 15
+            },
+            "game": {
+                "mainElementId": "snake",
+                "initSnakeLength": 5,
+                "speed": 500
+            }
+        });
+    </script>
+</head>
+<body>
+<div id="snake">
+    <button id="startSnake">Start Snake</button>
+</div>
+</body>
+</html>
