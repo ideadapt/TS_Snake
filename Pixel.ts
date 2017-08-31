@@ -1,4 +1,4 @@
-class Pixel {
+export default class Pixel {
     private static readonly BODY_CLASS = "snake-body";
     private static readonly PIXEL_CLASS = "snake-pixel";
     divElm: HTMLDivElement;

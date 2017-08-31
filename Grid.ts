@@ -1,4 +1,5 @@
 import {Point} from "./SnakeGame";
+import Pixel from "./Pixel";
 
 export class Grid {
     gridPixelArray: Pixel[] = [];

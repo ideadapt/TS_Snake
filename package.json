@@ -1,0 +1,27 @@
+{
+  "name": "ts-snake",
+  "version": "1.0.0",
+  "description": "Snake done in TypeScript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc && node_modules/.bin/browserify out/main.js > out/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ideadapt/TS_Snake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ideadapt/TS_Snake/issues"
+  },
+  "homepage": "https://github.com/ideadapt/TS_Snake#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "typescript": "^2.5.2"
+  }
+}
